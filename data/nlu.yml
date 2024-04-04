@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: inform
+  examples: |
+    - I want to book a flight
+    - Can you help me find a hotel?
+    - What are your opening hours?
+    - Show me Italian restaurants nearby
+
+- intent: thank_you
+  examples: |
+    - thank you
+    - thanks
+    - thank you so much
+
+- intent: get_location
+  examples: |
+    - where are you?
+    - Where are you located?
+    - What is your current location?
+    - where is your home ?
+    - I want to see you 
+
+- intent: get_weather
+  examples: |
+    - What's the weather like in Paris?
+    - Can you tell me the weather forecast for New York?
+    - What is the weather in London?
+    - Give me the weather report for Tokyo.
+
+- intent: get_mood
+  examples: |
+    - how are you ?
+    - i am fine what about you ?
+
